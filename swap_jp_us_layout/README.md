@@ -152,5 +152,9 @@ Parallels => 仮想化win10 => VMW HC => 仮想デスクトップサーバwin10�
 
 
 ## 設定を終えて
-少し修正しただけですが、日本語キーボードの入力コードをKarabiner-ElementsのEvent Viewerで確認して、HHKBの入力コードから入れ替えるのは、とても頭が混乱しました。おそらく同じ悩みを抱えている方はあまりいないと思うのですが、この記事が少しでも役立てば幸いです、
+少し修正しただけですが、日本語キーボードの入力コードをKarabiner-ElementsのEvent Viewerで確認して、HHKBの入力コードから入れ替えるのは、とても頭が混乱しました。Windowsで普通にUSキーボードが使えるようになって非常に仕事がしやすくなりました（当たり前）。おそらく同じ悩みを抱えている方はあまりいないと思うのですが、この記事が少しでも役立てば幸いです。
 
+## 参考
+- [Karabiner-Elementsの設定項目をまとめました](https://qiita.com/s-show/items/a1fd228b04801477729c)
+- [Karabiner-Elements Offical Manual](https://pqrs.org/osx/karabiner/document.html)
+- [github issue: change Japanese keyboard to US(JIS to ANSI) #167](https://github.com/tekezo/Karabiner-Elements/issues/167)
