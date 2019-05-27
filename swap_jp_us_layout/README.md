@@ -18,15 +18,15 @@ Parallels => 仮想化win10 => VMW HC => 仮想デスクトップサーバwin10�
 - Windows 10 (Ver 1809)
 - VMWare Horizon Client 4.5.0
 
-## 接続先仮想デスクトップ
+### 接続先仮想デスクトップ
 - Windows 10 (ver 1709)
 
 ## Remapの設定
 - Karabiner-Elementsのgithubのissueにちょうど類似のTopicがあがっていましたので、[こちら](https://github.com/tekezo/Karabiner-Elements/issues/167#issuecomment-331133220)の設定を使わせてもらうことにしました
 - 上記の設定をそのまま使うと私の環境では以下が発生していました
-    - `hyphen + shift (underscore)`が`backslash`になる
-    - `backslash`および`backslash + shift (pipe)`が`]`になる
-    - `grave_accent_and_tilde (backquote)`および`grave_accent_and_tilde + shift (tilde)`が半角/全角になる
+    - `hyphen + shift (underscore)`が`"\"(backslash)`になる
+    - `backslash`および`backslash + shift (pipe)`が`"]"(close_bracket)`になる
+    - `grave_accent_and_tilde (backquote)`および`grave_accent_and_tilde + shift (tilde)`が`半角/全角キー`になる
 - これを修正するため以下のようにKeymappingを若干修正および追加を行いました。  
     (1)  hyphen + shift が underscoreになるように修正
     ``` json
@@ -148,7 +148,7 @@ Parallels => 仮想化win10 => VMW HC => 仮想デスクトップサーバwin10�
         }
     ]
     ```
-- すべての設定を記載したjsonは[こちら]()に置いてあります。
+- すべての設定を記載したjsonは[こちら](https://github.com/imoris/karabiner-elements-settings/blob/master/swap_jp_us_layout/swap_jp_us_layout.json)に置いてあります。
 
 
 ## 設定を終えて
