@@ -21,6 +21,15 @@ Parallels => 仮想化win10 => VMW HC => 仮想デスクトップサーバwin10�
 ### 接続先仮想デスクトップ
 - Windows 10 (ver 1709)
 
+
+## 導入方法
+[こちら](https://github.com/imoris/karabiner-elements-settings/blob/master/swap_jp_us_layout/swap_jp_us_layout.json)に設定ファイルは置いてあります。
+1. jsonファイルをDLして以下に格納してください。
+`~/.config/karabiner/assets/complex_modifications`
+1. Karabiner-ElementsのPreferences画面を開き、Complex Modificationsタブを選択してください。
+1. Add ruleを選択し、`Remap Japanese Keyboard to US custom for Win (日本語環境)`をenableしてください。
+
+
 ## Remapの設定
 - Karabiner-Elementsのgithubのissueにちょうど類似のTopicがあがっていましたので、[こちら](https://github.com/tekezo/Karabiner-Elements/issues/167#issuecomment-331133220)の設定を使わせてもらうことにしました
 - 上記の設定をそのまま使うと私の環境では以下が発生していました
