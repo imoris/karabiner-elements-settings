@@ -4,7 +4,7 @@ MacbookとParallelsによる仮想化Windowsを併用しており、Macbook側�
 Apple信者にキレられそうですが、cmdキーよりcontrolキーの方が押しやすいですよね！
 
 ## 導入方法
-[こちら]()に設定ファイルは置いてあります。
+[こちら](https://github.com/imoris/karabiner-elements-settings/blob/master/ctrl_cvxzasnf_expansion/ctrl_cvxzasnf_extension.json)に設定ファイルは置いてあります。
 1. jsonファイルをDLして以下に格納してください。
 `~/.config/karabiner/assets/complex_modifications`
 1. Karabiner-ElementsのPreferences画面を開き、Complex Modificationsタブを選択してください。
