@@ -1,13 +1,13 @@
 # Karabiner-Elementsでctrl + comma をbackspace、ctrl + periodをdelete (fn + backspace) としてリマップ
 
 ## はじめに
-ctrl hjkl でVim風のカーソル移動を設定すると、ctrl h (backspace)とctrl k (カーソルより後ろの文字列を切り取り）が使えなくなります。
+`ctrl + hjkl` でVim風のカーソル移動を設定すると、`ctrl + h (backspace)`と`ctrl + k (カーソルより後ろの文字列を切り取り）`が使えなくなります。
 
-ctrl kは、頻繁に使わないのでshift + end で良いのですが、ctrl hについては右上backspaceキーはホームポジションから遠く、そこに戻りたくはありませんでした。ホームポジションから近いキーで代用できないか検討することにしました。
+`ctrl + k`は、頻繁に使わないので`shift + end`と`ctrl + x` で良いのですが、`ctrl + h`については右上`backspace`キーはホームポジションから遠く、そこに戻りたくはありませんでした。ホームポジションから近いキーで代用できないか検討することにしました。
 
-またmacからwindowsを操作する上でそもそもcontrol + hでdeleteではなく、置換windowが出てしまうアプリも多く、macとwinで操作方法に統一感がない状態になっていました。
+またmacからwindowsを操作する上でそもそも`control + h`で`backspace`ではなく、置換windowが出てしまうアプリも多く、macとwinで操作方法に統一感がない状態になっていました。
 
-幸いにもmacもwinにもctrl + comma/periodは大した機能が割り当てられてなさそうなので、それぞれbackspaceとdeleteを割り当てることにしました。
+幸いにもmacもwinにも`ctrl + comma/period`は大した機能が割り当てられてなさそうなので、それぞれ`backspace`と`delete`を割り当てることにしました。
 
 
 ## 導入方法
@@ -15,5 +15,5 @@ ctrl kは、頻繁に使わないのでshift + end で良いのですが、ctrl 
 1. jsonファイルをDLして以下に格納してください。
 `~/.config/karabiner/assets/complex_modifications`
 1. Karabiner-ElementsのPreferences画面を開き、Complex Modificationsタブを選択してください。
-1. Add ruleを選択し、`Change left_control + CXVZSAWFN to left_command + CXVZSAWFN ver 4`をenableしてください。
+1. Add ruleを選択し、`ctrl comma to backspace and ctrl period to delete`をenableしてください。
 
