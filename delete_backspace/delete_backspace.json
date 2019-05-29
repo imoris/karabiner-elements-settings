@@ -1,0 +1,57 @@
+{
+	"title": "backspace and delete remap",
+	"rules": [{
+		"description": "ctrl comma to backspace and ctrl period to delete",
+		"manipulators": [{
+			"type": "basic",
+			"from": {
+				"key_code": "comma",
+				"modifiers": {
+					"mandatory": [
+						"control"
+					],
+					"optional": [
+						"caps_lock",
+						"option"
+					]
+				}
+			},
+			"to": [{
+				"key_code": "delete_or_backspace"
+			}],
+			"conditions": [{
+				"type": "frontmost_application_unless",
+				"bundle_identifiers": [
+
+				]
+			}]
+		},
+		{
+			"type": "basic",
+			"from": {
+				"key_code": "period",
+				"modifiers": {
+					"mandatory": [
+						"control"
+					],
+					"optional": [
+						"caps_lock",
+						"option"
+					]
+				}
+			},
+			"to": [{
+				"key_code": "delete_or_backspace",
+				"modifiers":["fn"]
+			}],
+			"conditions": [{
+				"type": "frontmost_application_unless",
+				"bundle_identifiers": [
+
+				]
+			}]
+		}
+		
+		]
+	}]
+}

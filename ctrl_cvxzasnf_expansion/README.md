@@ -1,4 +1,4 @@
-# ctrl_cvxzasnf_extension
+# Karabiner-Elementsでcommand + c/v/x/z/a/s/n/fをctrl + c/v/x/z/a/s/n/fでも実行できるようにする
 ## はじめに
 MacbookとParallelsによる仮想化Windowsを併用しており、Macbook側の操作とWindows操作の統一感を得るため、Karabiner-Elementsを使ってMacbookの操作をcontrolキーでも行えるようにしました。
 Apple信者にキレられそうですが、cmdキーよりcontrolキーの方が押しやすいですよね！
